@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" href="pesci2.webp">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us!</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Become A Pesci Fan Today!</h1>
+        <img class="pesciPic" src="joe-pesci.gif">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Age</th>
+              <th>Date</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody">
+            <tr>
+              <td>Joe P</td>
+              <td>25</td>
+              <td>1966-04-23</td>
+            </tr>
+            <tr>
+              <td>Pete D</td>
+              <td>30</td>
+              <td>2022-02-22</td>
+            </tr>
+          </tbody>
+        </table>
+      
+        <form id="myForm">
+          <h2>Join Us!</h2>
+          <div>
+            <label for="nameInput">Name:</label>
+            <input type="text" class="formElement" id="nameInput" required>
+          </div>
+          <div>
+            <label for="ageInput">Age:</label>
+            <input type="number" class="formElement" id="ageInput" required>
+          </div>
+          <div>
+            <label for="dateInput">Date:</label>
+            <input type="date" class="formElement" id="dateInput" required>
+          </div>
+          <button type="submit" class="addButton">Add Row</button>
+        </form>
+      </div>
+
+      <script src="index.js"></script>
+</body>
+</html>
